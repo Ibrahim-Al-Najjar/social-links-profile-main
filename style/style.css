@@ -2,6 +2,7 @@
   font-family: "Inter";
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 html,
@@ -23,6 +24,7 @@ body {
   background-color: #1f1f1f;
   width: 500px;
   border-radius: 10px;
+  margin-inline: 30px;
 }
 
 .header {
@@ -64,6 +66,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .btn {
   display: flex;
   align-items: center;
@@ -75,4 +78,16 @@ body {
   height: 50px;
   background-color: #383737;
   margin-block: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a0cc0f;
+}
+
+.btn-txt {
+  border: none;
+  text-decoration: none;
+  color: white;
 }
