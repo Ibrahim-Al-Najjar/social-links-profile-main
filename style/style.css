@@ -1,8 +1,12 @@
 * {
-  font-family: "Inter";
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("assets/fonts/static/Inter-Regular.ttf");
 }
 
 html,
@@ -22,7 +26,7 @@ body {
 
 .card {
   background-color: #1f1f1f;
-  width: 500px;
+  width: 430px;
   border-radius: 10px;
   margin-inline: 30px;
 }
