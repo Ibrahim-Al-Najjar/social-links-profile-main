@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Inter;
-  src: url("assets/fonts/static/Inter-Regular.ttf");
+  src: url("/assets/fonts/static/Inter-Regular.ttf");
 }
 
 html,
@@ -27,9 +27,9 @@ body {
 
 .card {
   background-color: #1f1f1f;
-  width: 430px;
+  width: 400px;
   border-radius: 10px;
-  margin-inline: 30px;
+  padding-block-end: 35px;
 }
 
 .header {
@@ -82,7 +82,7 @@ body {
   width: 300px;
   height: 50px;
   background-color: #383737;
-  margin-block: 10px;
+  margin-block: 7px;
   text-decoration: none;
   transition: 0.3s ease;
 }
